@@ -14,6 +14,7 @@
             std::string name;
             double mass;
         public:
-            double variable;
+            Observed_object(std::string name, double mass);
+            ~Observed_object(){std::cout<<"Destructor called"<<std::endl;} // Destructor (in-line)
     };
 #endif

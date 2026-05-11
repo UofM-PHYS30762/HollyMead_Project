@@ -1,0 +1,2 @@
+star, Maude, 5 
+star, Gavrillo, 10

@@ -7,9 +7,10 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "Main.cpp",
+                "Observed_object.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "HollyMead_Project.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
